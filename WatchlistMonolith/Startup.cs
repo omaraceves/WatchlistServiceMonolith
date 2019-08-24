@@ -79,12 +79,12 @@ namespace WatchlistMonolith
                             {
                                 Email = "lcc.omar.aceves@gmail.com",
                                 Name = "Omar Aceves",
-                                Url = new Uri("https://github.com/omaraceves")
+                                Url = new Uri("https://github.com/omaraceves/WatchlistServiceMonolith")
                             },
                             License = new Microsoft.OpenApi.Models.OpenApiLicense()
                             {
                                 Name = "MIT License",
-                                Url = new Uri("https://opensource.org/licenses/MIT")
+                                Url = new Uri("https://github.com/omaraceves/WatchlistServiceMonolith/blob/master/LICENSE")
                             }
                         });
 
