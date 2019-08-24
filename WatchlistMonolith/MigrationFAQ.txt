@@ -1,0 +1,4 @@
+﻿Data Migration FAQ
+
+1.Open package manager console.
+2. type add-migration [migrationname]

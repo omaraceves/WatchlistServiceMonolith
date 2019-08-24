@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WatchlistMonolith</name>
+    </assembly>
+    <members>
+        <member name="M:WatchlistMonolith.Controllers.MediaCollectionsController.#ctor(WatchlistMonolith.Services.IMediasRepository,AutoMapper.IMapper)">
+            <summary>
+            ctor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.MediaCollectionsController.GetMediasCollection(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Get medias collection
+            </summary>
+            <param name="mediaIds">Returns a collection of medias for a given id.</param>
+            <returns></returns>
+        </member>
+        <member name="T:WatchlistMonolith.Controllers.MediasController">
+            <summary>
+            Medias Controller
+            </summary>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.MediasController.#ctor(WatchlistMonolith.Services.IMediasRepository,AutoMapper.IMapper)">
+            <summary>
+            ctor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.MediasController.GetMedias">
+            <summary>
+            Gets all medias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.MediasController.GetMedia(System.String)">
+            <summary>
+            Gets a media
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.MediasController.AddMedia(WatchlistMonolith.Model.MediaForCreation)">
+            <summary>
+            Adds a media
+            </summary>
+            <param name="mediaToAdd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.UsersController.#ctor(WatchlistMonolith.Services.IUsersRepository,AutoMapper.IMapper,WatchlistMonolith.Services.IWatchlistRepository)">
+            <summary>
+            ctor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.UsersController.GetUsers">
+            <summary>
+            Gets all users
+            </summary>
+            <returns>Returns a collection of Users</returns>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.UsersController.Authenticate(WatchlistMonolith.Model.UserForAuthentication)">
+            <summary>
+            Authenticates a registered user.
+            </summary>
+            <param name="userCreds">User Credentials</param>
+            <returns></returns>
+        </member>
+        <member name="M:WatchlistMonolith.Controllers.WatchlistsController.#ctor(AutoMapper.IMapper,WatchlistMonolith.Services.IWatchlistRepository)">
+            <summary>
+            ctor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:WatchlistMonolith.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            something
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>
